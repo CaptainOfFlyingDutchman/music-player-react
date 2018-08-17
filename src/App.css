@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.shell {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.player {
+  width: 400px;
+  height: 400px;
+  background-color: wheat;
+  margin-bottom: 20px;
+}
+
+.song-item {
+  cursor: pointer;
+}
+
+.playlist {
+  list-style: none;
+}
+
+.playlist .active {
+  font-weight: bold;
+}
+
+/*.buffer-bar-parent {
+  border-radius: 13px;
+  width: 400px;
+  height: 10px;
+  background: gray;
+  !*padding: 3px;*!
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.buffer-bar {
+  border: 1px solid wheat;
+  border-radius: 13px;
+   width: 0;
+  !* height: 10px; *!
+  background: wheat;
+  !* padding: 3px; *!
+  !* position: relative; *!
+  !* margin-bottom: 20px; *!
+}
+
+.progress-bar {
+  border-radius: 10px;
+  width: 0;
+  height: 8px;
+  background: red;
+}*/
+
+
+.buffer-bar {
+  padding-top: 2px;
+  height: 10px;
+  /*width: 400px;*/
+  background: red;
+  position: relative;
+}
+
+.progress-bar {
+  position: absolute;
+  width: 400px;
+  height: 8px;
+  left: 0;
+  -webkit-appearance: none;
+}
